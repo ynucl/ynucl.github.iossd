@@ -1,0 +1,460 @@
+@charset "utf-8";
+ 
+.title {
+    background-color: rgb(153, 160, 152);
+    width: auto;
+    height: auto;
+    color: rgb(236, 241, 239);
+    text-shadow: 10px 5px 3px rgba(129, 103, 103, 0.3);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+ }
+ header {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(255, 136, 0);
+ }
+ header img{
+    border-radius: 20%;
+    padding-top: 16px;
+  }
+  header p {
+      height: 0;
+      padding-top: 32px;
+      margin-right: px;
+      color: rgb(255, 255, 255);
+  }
+  nav {
+    /* border-width: 1px;
+    border-color: gray;
+    border-style: solid; */
+    /* border: 1px gray solid;
+    border-radius: 8px; */
+    padding: 16px;
+    margin-bottom: 8px;
+    /* background-color:rgba(230, 220, 220, 0.8); */
+    background-size: cover;
+    text-align: right;
+  }
+  nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+  nav a {
+      width: 120px;
+      text-align: center;
+      line-height: 54px;
+    
+      display: block;
+  }
+  nav a:hover {
+      background-color: rgba(230, 220, 220, 0.8);
+  }
+  .info {
+    border: 1px gray solid;
+    padding: 640px 16px 16px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-image: url(部誌写真.jpg);
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-size: cover;
+    /* background-position: center; */
+    height: 700%;
+    text-align: right;
+    color: rgb(0, 0, 0);
+  }
+
+  .seiryo {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    /* clear: center; */
+    align-items: flex-end;
+    max-width: 680px;
+    min-width: 480px; 
+  }
+  .seiryo img {
+    width: 100%;
+  }
+
+  .seiryo p {
+    margin: 0;
+  }
+
+  .pic {
+    margin: 36px 12px 0px 12px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+  }
+  .seiryo .btn {
+    flex: 1;
+  }
+  .desc {
+   border: 36px;
+    /* padding: auto 60px 60px 60px; */
+    /* padding: 200px 64px 0px; */
+  }
+
+  .desc p {
+    width: 320px;
+    color: rgb(255, 255, 255);
+  }
+
+  .illust {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    min-width: 480px; 
+  }
+
+  .illust2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    min-width: 480px; 
+  }
+
+  .grayscale {
+    margin: 36px 12px 0px 12px;
+  float: left;
+  cursor: pointer;
+  }
+
+  .grayscale .btn2 {
+    flex: 1;
+  }
+
+  .grayscale img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  .illust img {
+    width: 100%;
+    }
+
+  .illust2 img {
+    width: 100%;
+    }
+
+  h3 {
+    color: rgb(255, 255, 255);
+  }
+  body {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0;
+  }
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 100%;
+  }
+
+  h6 {
+      font-weight: lighter;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  .title::before,
+  .title::before {
+      content: '- ';
+  }
+
+  .title::after,
+  .title::after {
+        content: ' -';
+  }
+
+  .btn {
+      width: 320px;
+      background: rgb(153, 160, 152);
+      text-align: center;
+      padding: 4px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .btn2:hover {
+      opacity: 0.8;
+  }
+
+  .btn2 {
+      width: 160px;
+      height: 32px;
+      background: rgb(153, 160, 152);
+      text-align: center;
+      padding: 4px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .btn:hover {
+      opacity: 0.8;
+  }
+
+  .btn2 h5 {
+    color: rgb(255, 255, 255);
+  }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
+  .follow {
+    width: 320px;
+  }
+
+  .follow img {
+    width: 30px;
+  }
+
+  .coment {
+    margin: 16px;
+  }
+
+  /*==================================================
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+  width:94%;
+  margin:0 auto;
+}
+
+.slider img {
+  width:30vw;/*スライダー内の画像を60vwにしてレスポンシブ化*/
+  height:auto;
+}
+
+.slider .slick-slide {
+transform: scale(0.8);/*左右の画像のサイズを80%に*/
+transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
+opacity: 0.5;/*透過50%*/
+}
+
+.slider .slick-slide.slick-center{
+transform: scale(1);/*中央の画像のサイズだけ等倍に*/
+opacity: 1;/*透過なし*/
+}
+
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+  position: absolute;/*絶対配置にする*/
+  top: 42%;
+  cursor: pointer;/*マウスカーソルを指マークに*/
+  outline: none;/*クリックをしたら出てくる枠線を消す*/
+  border-top: 2px solid #666;/*矢印の色*/
+  border-right: 2px solid #666;/*矢印の色*/
+  height: 15px;
+  width: 15px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+  left: -1.5%;
+  transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+  right: -1.5%;
+  transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+  text-align:center;
+margin:20px 0 0 0;
+}
+
+.slick-dots li {
+  display:inline-block;
+margin:0 5px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width:8px;/*ドットボタンのサイズ*/
+  height:8px;/*ドットボタンのサイズ*/
+  display:block;
+  border-radius:50%;
+  background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+  background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+header{
+	animation: bgchange 20s ease infinite;/*変化の時間を変更したい場合は20sの部分を好きな時間に変更*/
+}
+
+@keyframes bgchange{
+      0%   {background:#c2a199;}/*変化させたい色*/
+      25%  {background:#aaad92;}/*変化させたい色*/
+      50%  {background:#95b89e;}/*変化させたい色*/
+      75%  {background:#85a3a2;}/*変化させたい色*/
+      90%  {background:#9385a1;}/*変化させたい色*/
+      100% {background:#9e868f;}/*変化させたい色*/
+ }
+
+ .grayscale img{
+	filter: grayscale(100%);/*モノクロ具合を変更したい場合はこの数値を変更*/
+	transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.grayscale a:hover img{/*hoverした時の変化*/
+	filter:grayscale(0);
+}
+
+
+
+/*== 波紋がふわっと広がる */
+
+.btnripple3{
+  /*波紋の基点とするためrelativeを指定*/
+position: relative;
+  /*リンクの形状*/
+display:inline-block;
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+
+/*波形の設定*/
+.btnripple3:hover::before {
+  content: '';
+  /*絶対配置で波形の位置を決める*/
+  position: absolute;
+  left:30%;
+  top:0;
+  /*波形の形状*/
+  border: 1px solid #333;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /*はじめは不透明*/
+opacity:1;
+  /*アニメーションの設定*/
+  animation:1s circleanime2 forwards;
+}
+
+/*波形が広がるアニメーション*/
+@keyframes circleanime2{
+0%{
+  transform: scale(0);
+}
+100%{
+  transform:scale(2);
+  opacity: 0;
+}
+}
+
+/*========= ローディング画面のためのCSS ===============*/
+#splash {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	z-index: 9999999;
+	text-align:center;
+	color:#fff;
+}
+
+#splash-logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*========= 画面遷移のためのCSS ===============*/
+
+/*画面遷移アニメーション*/
+.splashbg{
+    display: none;
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear .splashbg{
+	display:block;
+	animation-name:PageAnime;
+	animation-duration:1.2s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forwards;
+    content: "";
+    position:fixed;
+	z-index: 999;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+	left: 0;
+    transform: translateX(-300%) skewX(-45deg);
+    background-color: #333;/*伸びる背景色の設定*/
+}
+
+@keyframes PageAnime{
+	0% {
+		transform-origin:left;
+		transform:translateX(-300%) skewX(-45deg);
+	}
+	100% {
+		transform-origin:left;
+		transform:translateX(500%) skewX(-45deg);
+	}
+}
+
+/*画面遷移の後現れるコンテンツ設定*/
+#container{
+	opacity: 0;/*はじめは透過0に*/
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear #container{
+	animation-name:PageAnimeAppear;
+	animation-duration:1s;
+	animation-delay: 0.6s;
+	animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+@keyframes PageAnimeAppear{
+	0% {
+	opacity: 0;
+	}
+	100% {
+	opacity: 1;
+}
+}
